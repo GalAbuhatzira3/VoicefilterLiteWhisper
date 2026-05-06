@@ -1,0 +1,11 @@
+# Legacy pip reference only. On Windows use environment.yml.
+torch
+torchaudio
+openai-whisper
+speechbrain
+resemblyzer
+numpy
+pandas
+soundfile
+tqdm
+pyyaml

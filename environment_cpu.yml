@@ -1,0 +1,24 @@
+name: whisper-vf-cpu
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip>=23
+  - pytorch
+  - torchaudio
+  - cpuonly
+  - ffmpeg
+  - git
+  - numpy=1.26.*
+  - scipy
+  - pandas
+  - pyyaml
+  - tqdm
+  - requests
+  - pip:
+      - openai-whisper
+      - speechbrain
+      - soundfile
+      - huggingface-hub
